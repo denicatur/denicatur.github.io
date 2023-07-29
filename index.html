@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>aku sayang sama kamu</title>
+  <meta name="description" content="Script HTML Crush on You">
+  <meta name="keywords" content="script html bucin, script html bucin kompiwin, script bucin replit">
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  <link rel="icon" href="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-32x32.png" sizes="32x32" />
+  <link rel="icon" href="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon" href="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-180x180.png" />
+  <meta name="msapplication-TileImage" content="https://www.kompiwin.com/wp-content/uploads/2021/07/cropped-favicon_kompiwin-270x270.png" />
+
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/>
+  <meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@600&amp;display=swap" rel="stylesheet">
+
+  <script src="cdn.jsdelivr.net/npm/sweetalert2%4011.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="unpkg.com/typeit%408.7.0/dist/index.umd.js"></script><link href="feeldreams.github.io/thisyou/style.css" rel="stylesheet" type="text/css" />
+  <script src="kit.fontawesome.com/4f3ce16e3e.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://general.kompiwin.repl.co/general.js"></script>
+</head>
+<body>
+	
+   <!-- Ganti Audio di sini -->
+   <audio src="https://feeldreams.github.io/hbdm.mp3" id="linkmp3" ></audio>
+   
+   <div id="bodyblur">
+     <!-- Wallpaper --><img src="feeldreams.github.io/untukmu/ppp.jpeg" id="wallpaper"/>
+   </div>
+   
+   <div id='Content'>
+
+     <div id="ftAwal">
+       <img src="feeldreams.github.io/pandakuning.gif" id="ftoAwal"/>
+     </div>
+
+     <div id="loveIn">
+       <!-- Tombol LOVE --><label class='lovein'>😁</label>
+     </div>
+     <p id="ket">coba pencet</p>
+
+     <!-- ---------------------- -->
+     
+     <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="feeldreams.github.io/bunga.gif" id="fotostiker"/>
+         <img src="feeldreams.github.io/pusn.gif" id="fotostiker1"/>
+         <img src="feeldreams.github.io/peachlove.gif" id="fotostiker2"/>
+         <img src="feeldreams.github.io/peachheart.gif" id="fotostiker3"/>
+         <img src="feeldreams.github.io/peachbunga2.gif" id="fotostiker4"/>
+         <img src="feeldreams.github.io/pandakuning.gif" id="fotostiker5"/>
+     </div>
+     
+     <div><blockquote id='bq' data-text='BUBUB'>
+       <p id="halo" class="halo"></p>
+       <p id="kalimat">aku mau minta maaf ya sayang </p>
+       
+       <!-- Pesan -->
+       <p id="pesan0">maafin aku karena udah bikin kamu bete hehehe😘😘😘</p>
+       <p id="pesan1">aku sayang kamu </p>
+       <p id="pesan2">maaf ya aku suka lupa ngabarin kamu😁😁😁</p>
+       <p id="pesan3">jangan mayah teyus aku kan kepikiran</p>
+       <p id="pesan4">Klik 3 LOVE di Bawah! 😆❤️</p>
+       <div id="kolombaru">
+         <li id="lv1">🤍</li>
+         <li id="lv2">🤍</li>
+         <li id="lv3">🤍</li>
+       </div>
+       <p id="pesan5">I LOVE YOU SAYANG AKU</p>
+       <p id="pesan6">kalo aku ada salah ingetin aku yahh....</p>
+       <p id="pesan7" class="gaya2">aku emang lama sayang mikir nya hehehe</p>
+
+       <!-- Tombol Lanjut -->
+       <p id="opsL">Klik untuk Lanjut</p>
+     </blockquote></div>
+
+     <!-- Tombol Multifungsi -->
+     <div id="Tombol">
+       <a id="By">di maafin</a>
+       <a id="Bn">gamau</a>
+     </div>
+
+     <!-- Pesan Ditolak -->
+     <div id="pesanditolak">
+       <img id="stikerditolak" src="feeldreams.github.io/peachsad1.gif"/>
+       <p id="kataditolak">harus pilih kiri😁😁😁</p>
+     </div>
+
+   </div>
+
+<!-- Jangan Edit Bagian Ini --><script>
+  const body = document.querySelector("body");const swalst = Swal.mixin({timer: 2300, allowOutsideClick: false, showConfirmButton: false, timerProgressBar: true, imageHeight: 90,}); audio = new Audio('' + linkmp3.src); ftganti=0;fungsi=0;fungsiAwal=0;deffotostiker=fotostiker.src;function berjatuhan() {const heart = document.createElement("div"); heart.className = "fas fa-snowflake"; heart.style.left = (Math.random() * 90)+"vw"; heart.style.animationDuration = (Math.random()*3)+2+"s"; body.appendChild(heart);} setInterval(function name(params) {var heartArr = document.querySelectorAll(".fa-snowflake"); if (heartArr.length > 100) {heartArr[0].remove()}},100);Content.style = "opacity:1;margin-top:16vh"; const swals = Swal.mixin({allowOutsideClick: false, cancelButtonColor: '#FF0040', imageHeight: 80,}); 
+  
+  async function inipesan(){
+         vketikhalo="SELAMAT PAGI SAYANG AKU";
+         mulainama();
+  }
+
+  async function menuju(){
+    pesanwhatsapp = "aku maafin ko sayang";
+    await swals.fire('OK!', 'bubub', 'success');
+    window.location = "https://api.whatsapp.com/send?phone=6282125840762&text=" + pesanwhatsapp;
+  }
+</script>
+<script src="feeldreams.github.io/thisyou/script.js"></script>
+<!-- Sampai Sini -->
+</body>
+
+<!-- Mirrored from thisyou.feeldream.repl.co/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Jan 2023 14:50:37 GMT -->
+</html>
