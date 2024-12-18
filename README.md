@@ -1,1 +1,1 @@
-# denicatur.github.io
+# informasi daur ulang.github.io
